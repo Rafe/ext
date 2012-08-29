@@ -1,0 +1,26 @@
+{
+  "name": "application",
+  "description": "description",
+  "version": "0.0.0",
+  "dependencies": {
+    "coffee-script": "1.3.x",
+    "express": "3.x",
+    "express-resource": "git://github.com/visionmedia/express-resource.git#add/express3x-support",
+    "jade": "0.26.x",
+    "connect-assets": "2.1.x",
+    "stylus": "*",
+    "nib": "*",
+    "mongoose": "3.0.x",
+    "mongodb": "*",
+    "redis": "0.7.x",
+    "hiredis": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "NODE_ENV=test mocha $(find ./test -name '*_test.coffee')"
+  },
+  "devDependencies": {
+    "mocha": "~1.3.0"
+  },
+  "engine": "node ~> 0.8.x"
+}

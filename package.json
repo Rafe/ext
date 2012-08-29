@@ -1,0 +1,15 @@
+{
+  "name": "ext",
+  "version": "0.0.1",
+  "description": "express template with coffeescript",
+  "main": "index.js",
+  "bin": {"ext": "./bin/ext"},
+  "scripts": {},
+  "repository": "git@github.com:Rafe/ext.git",
+  "author": "Jimmy Chao <daizenga@gmail.com> (neethack.com)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~1.0.2",
+    "coffee-script": "~1.3.3"
+  }
+}

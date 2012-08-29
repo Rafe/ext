@@ -1,0 +1,5 @@
+--compilers coffee:coffee-script
+--require coffee-script
+--require request
+--require test/test_helper.coffee
+--growl
